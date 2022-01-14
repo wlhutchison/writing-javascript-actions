@@ -10,3 +10,7 @@ jobs:
 
       - name: "hello-action"
         uses: ./.github/actions/hello-world
+        with:
+          first-greeting: "William Hutchison"
+          second-greeting: "Superman"
+          third-greeting: "Clark Kent"
