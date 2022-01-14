@@ -11,4 +11,6 @@ jobs:
       - name: "hello-action"
         uses: ./.github/actions/hello-world
         with:
-          third-greeting: "Batman"
+          first-greeting: "Batman"
+          second-greeting: "Superman"
+          third-greeting: "Wonder Woman"
